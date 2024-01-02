@@ -7,6 +7,9 @@ export default {
         './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
         './storage/framework/views/*.php',
         './resources/views/**/*.blade.php',
+        './resources/js/**/*.vue',
+        './resources/js/**/*.js',
+        
     ],
 
     theme: {
@@ -18,4 +21,17 @@ export default {
     },
 
     plugins: [forms],
+    
+    
 };
+module.exports = {
+    //...
+    plugins: [require("daisyui")],
+    content: [
+        "./src/**/*.{html,js}",
+        "./node_modules/tw-elements/dist/js/**/*.js"
+      ],
+      plugins: [require("tw-elements/dist/plugin.cjs")],
+      darkMode: "class"
+    
+  };
