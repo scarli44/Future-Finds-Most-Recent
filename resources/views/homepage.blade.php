@@ -39,19 +39,19 @@
                     <ul class="flex gap-2 items-center text-sm">
 
                         <li>
-                            <a class=" text-white text-lg px-5 py-2.5 font-medium " href="/checkout">Checkout </a>
+                            <a class=" text-white text-xl px-5 py-2.5 font-medium " href="/checkout">Checkout </a>
                         </li>
 
                         <li>
-                            <a class=" text-white text-lg px-5 py-2.5 font-medium" href="/login"> Login </a>
+                            <a class=" text-white text-xl px-5 py-2.5 font-medium" href="/login"> Login </a>
                         </li>
 
                         <li>
-                            <a class=" text-white text-lg px-5 py-2.5 font-medium " href="/register">Register </a>
+                            <a class=" text-white text-xl px-5 py-2.5 font-medium " href="/register">Register </a>
                         </li>
 
                         <li>
-                            <a class=" text-white text-lg px-5 py-2.5 font-medium " href="/About">About</a>
+                            <a class=" text-white text-xl px-5 py-2.5 font-medium " href="/About">About</a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
 
 
             <div class="block md:hidden">
-                <button class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                <button class="rounded bg-gray-500 p-2 text-gray-600 transition hover:text-gray-600/75">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         class="h-5 w-5"
@@ -81,13 +81,12 @@
     <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
         <div class="grid grid-cols-1 gap-2 lg:grid-cols-1 lg:items-stretch">
             <!--************* First Rectangle with low Opacity *************-->
-            <div class=" place-content-center rounded-xl bg-white bg-opacity-30 p-8 sm:p-8">
-                <div class="mx-auto max-w-md text-center lg:text-left">
+            <div class="place-content-center rounded-xl bg-white bg-opacity-30 p-12 sm:p-8">
+                <div class="mx-auto max-w-auto text-center lg:text-left">
                     <header>
-
                         <h2 class=" text-center text-l font-bold text-white sm:text-3xl lg:text-3xl ">Future Finds</h2>
 
-                        <p class=" mt-6 text-white text-center items-center">
+                        <p class=" mt-6 text-white text-xl items-center">
                             Welcome to Future Finds, the go-to destination for the latest and greatest in technological innovations.
                             At our core, we are driven by a passion for discovering and delivering a diverse range of top-tier tech
                             products, from *** ADD LATER ****
@@ -101,11 +100,13 @@
             </div>
 
             <section>
-                <div class="px-4 py-8 sm:px-4 sm:py-8 lg:px-4 lg:py-8">
+                <!--
+                Px-1 = Padding Left and Right  ||  Py-16 Padding Top and Bottom on the outside
+                of low opacity rectangle containing products -->
+                <div class="px-1 py-16">
                     <!-- ************ Second Rectangle with low opacity ************ -->
-                    <div class="rounded-xl bg-white bg-opacity-30 p-8 sm:p-8 sm:px-12">
-
-                        <ul class="mt-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-2 p">
+                    <div class="rounded-xl bg-white bg-opacity-30 py-8 sm:px-12">
+                        <ul class="mt-8 mb-8 grid gap-10 sm:grid-cols-2 lg:grid-cols-2 p">
                             <!--  ************** First Product ************** -->
                             <li>
                                 <a href="#" class="group block overflow-hidden">
@@ -118,14 +119,8 @@
                                             Product Name
                                         </h3>
 
-
-
                                         <!-- Example of a modern and stylish font design using Tailwind CSS -->
-
-
-
-                                        <p class="mt-5">
-                                            <span class="sr-only"> Regular Price </span>
+                                        <p class="mt-10">
                                         <div class="pb-3 pl-5 tracking-wider text-gray-900"> Price </div>
                                         </p>
                                     </div>
@@ -155,7 +150,7 @@
                             </li>
                             <!--  ************** Third Product ************** -->
                             <li>
-                                <a href="#" class="rounded-tl-xl rounded-tr-xl group block overflow-hidden">
+                                <a href="#" class="rounded-tl-2xl rounded-tr-2xl group block overflow-hidden">
                                     <img
                                         src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
                                         alt=""

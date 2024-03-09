@@ -82,12 +82,12 @@
     <div class="grid grid-cols-1 gap-2 lg:grid-cols-1 lg:items-stretch">
         <!--************* First Rectangle with low Opacity *************-->
         <div class=" place-content-center rounded-xl bg-white bg-opacity-30 p-8 sm:p-8">
-        <div class="mx-auto max-w-md text-center lg:text-left">
+        <div class="mx-auto max-w-screen-2xl text-center lg:text-left">
           <header>
 
-            <h2 class=" text-center text-l font-bold text-white sm:text-3xl lg:text-3xl ">Future Finds</h2>
+            <h2 class=" text-center text-white text-l font-bold  sm:text-3xl lg:text-3xl ">Future Finds</h2>
 
-            <p class=" mt-6 text-white text-center items-center">
+            <p class="  text-center text-white text-xl items-center mt-6">
             Welcome to Future Finds, the go-to destination for the latest and greatest in technological innovations.
             At our core, we are driven by a passion for discovering and delivering a diverse range of top-tier tech
             products, from *** ADD LATER ****

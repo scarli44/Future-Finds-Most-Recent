@@ -19,6 +19,9 @@ $product = new Product();
 
 Route::get('/create',  [ProductController::class, 'createProduct' ]);
 
+Route::get('/admin', function (){
+    return view('adminpage');
+});
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
 
